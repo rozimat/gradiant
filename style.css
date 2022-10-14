@@ -1,0 +1,39 @@
+body{
+  background-color: #3e4452;
+}
+.gradiant{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 25vw;
+  height: 25vw;
+  background: linear-gradient(-45deg, #0713f3, #f1453f, #092b13, #f13fad);
+  background-size: 400% 400%;
+  background-position: 0 10%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.gradiant:hover{
+  animation: gradientt 10s ease infinite;
+}
+@keyframes gradientt {
+  8%{
+    background-position: 0% 10%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+h1{
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 1.7vw;
+}
