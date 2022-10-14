@@ -9,7 +9,7 @@ body{
   display: flex;
   width: 25vw;
   height: 25vw;
-  background: linear-gradient(-45deg, #0713f3, #f1453f, #092b13, #f13fad);
+  background: linear-gradient(-45deg, #0713f3, #f1453f, #092b13, #f13fad, #ebdb07, #86f13f, #07f3df, #9294bb);
   background-size: 400% 400%;
   background-position: 0 10%;
   border-radius: 20px;
